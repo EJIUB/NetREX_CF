@@ -18,4 +18,5 @@ In this GitHub page, we provide the python source codes of our NetREX_CF.
 
 ## Imput format
 NetREX_CF needs two inputs: expression data and prior data. One example of NetREX_CF's input can be found in Notebook/NetREXCF_S2Cell.ipynb
-
+1. Expression data is genes by samples. 
+2. Prior data is genes by TFs. The row name of expression data and prior data should be well aligned. 
