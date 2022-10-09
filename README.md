@@ -19,4 +19,7 @@ In this GitHub page, we provide the python source codes of our NetREX_CF.
 ## Imput format
 NetREX_CF needs two inputs: expression data and prior data. One example of NetREX_CF's input can be found in Notebook/NetREXCF_S2Cell.ipynb
 1. Expression data is inputed as a genes by samples matrix . 
-2. Prior data is inputed as a genes by TFs matrix. The row names of expression data and prior data should be well aligned. If you have multiple priors, for each prior data, you should build a matrix and normilize the matrix to make sure each element in the matirx is between 0 and 1. 
+2. Prior data is inputed as a genes by TFs matrix. The row names of expression data and prior data should be well aligned. If you have multiple priors, for each prior data, you should build a matrix and normilize the matrix to make sure each element in the matirx is between 0 and 1. Then you can sum all the prior data together. 
+
+## Output
+NetREX_CF outputs a genes by TFs matrix. The row and column names are the same as the prior data. The larger the element in the matrix, the more confident we have for the corresponing TF-gene regulation. 
