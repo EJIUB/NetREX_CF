@@ -17,4 +17,5 @@ In this GitHub page, we provide the python source codes of our NetREX_CF.
 4. Open the jupter notebook and run.
 
 ## Imput format
-1. 
+NetREX_CF needs two inputs: expression data and prior data. One example of NetREX_CF's input can be found in Notebook/NetREXCF_S2Cell.ipynb
+
