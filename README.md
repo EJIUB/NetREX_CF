@@ -15,3 +15,6 @@ In this GitHub page, we provide the python source codes of our NetREX_CF.
 2. Download Notebook/NetREXCF_S2Cell.ipynb
 3. Put the data and the jupter notebook in the same folder
 4. Open the jupter notebook and run.
+
+## Imput format
+1. 
