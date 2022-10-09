@@ -1,6 +1,6 @@
 # NetREX_CF
 
-we introduce  \NetREXCF\ -- Regulatory {\bf Net}work {\bf R}econstruction using {\bf EX}pre\-ssion and {\bf C}ollaborative {\bf F}iltering -- a GRN reconstruction approach that brings together a modern machine learning strategy (Collaborative Filtering) 
+We introduce  NetREX_CF -- Regulatory **Net**work **R**econstruction using **EX**pression and **C**ollaborative **F**iltering -- a GRN reconstruction approach that brings together a modern machine learning strategy (Collaborative Filtering) 
 to address the incompleteness of the prior knowledge 
 and a biologically justified model of gene expression (sparse Network Component Analysis based model).
 
